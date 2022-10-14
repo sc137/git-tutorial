@@ -1,31 +1,31 @@
 # Exercise 8 - Viewing changes before committing
 
-1. Ensure your working directory is clean
+1.  Ensure your working directory is clean
 
-2. Add text to any one of your files
+2.  Add text to any one of your files
 
-3. Delete different text from another of your files
+3.  Delete different text from another of your files
 
-4. Look at `git status`
+4.  Look at `git status`
 
-5. View all the changes you've made
+5.  View all the changes you've made
 
         git diff
 
-6. Does the following command return anything?
+6.  Does the following command return anything?
 
         git diff --staged
 
-7. Add one of your changed files to the index
+7.  Add one of your changed files to the index
 
-        git commit add <changed file>
+        git add <changed file>
 
-8. What do these commands show?
+8.  What do these commands show?
 
         git diff
         git diff --staged
 
-9. Add the other changed file to the index
+9.  Add the other changed file to the index
 
         git commit add <other changed file>
 
